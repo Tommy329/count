@@ -20,7 +20,19 @@ class ViewController: UIViewController {
     @IBAction func plus(){
         number=number+1
         label.text=String(number)
-        
     }
     
+    
+    @IBAction func minus(){
+        number=number-1
+        label.text=String(number)
+    }
+    @IBAction func A(){
+        number=number+10
+        label.text=String(number)
+    }
+    @IBAction func B(){
+        number=number-10
+        label.text=String(number)
+    }
 }
